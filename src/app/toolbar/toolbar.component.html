@@ -1,8 +1,10 @@
 <mat-toolbar color="primary">
   <span>Learn2Train</span>
   <span class="spacer"></span>
-  <button mat-button [matMenuTriggerFor]="appMenu">
-    <mat-icon svgIcon="menu"></mat-icon> Menu</button>
+  <button mat-button class="nav-menu-button" [matMenuTriggerFor]="appMenu">
+    <!-- {{profil.name}} -->profil
+    <mat-icon svgIcon="menu-down"></mat-icon>
+  </button>
 </mat-toolbar>
 <mat-menu #appMenu>
   <button mat-menu-item> Settings </button>

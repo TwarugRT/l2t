@@ -11,8 +11,28 @@
 </mat-sidenav-container> -->
 <div class="nav-containter">
 
-  <mat-nav-list class="nav">
+  <mat-nav-list class="nav" color="accent">
     <a mat-list-item routerLink=".">
-      <mat-icon svgIcon="laptop"></mat-icon>Profil</a>
+      <mat-icon svgIcon="laptop"></mat-icon>Pulpit</a>
+    <a mat-list-item routerLink=".">
+      <mat-icon svgIcon="settings"></mat-icon>Trening</a>
+    <a mat-list-item routerLink=".">
+      <mat-icon svgIcon="email"></mat-icon>Wiadomości</a>
+    <a mat-list-item routerLink=".">
+      <mat-icon svgIcon="pencil"></mat-icon>Artykuły</a>
+    <a mat-list-item routerLink=".">
+      <mat-icon svgIcon="video"></mat-icon>Filmiki</a>
+    <a mat-list-item routerLink=".">
+      <mat-icon svgIcon="camera"></mat-icon>Zdjęcia</a>
+    <a mat-list-item routerLink=".">
+      <mat-icon svgIcon="clipboard-text"></mat-icon>Raport</a>
+    <button mat-button class="nav-menu-button" [matMenuTriggerFor]="appMenu">
+      <mat-icon svgIcon="account"></mat-icon>Profil
+      <mat-icon svgIcon="menu-down"></mat-icon>
+    </button>
+    <mat-menu #appMenu>
+      <button mat-menu-item> Settings </button>
+      <button mat-menu-item> Contact </button>
+    </mat-menu>
   </mat-nav-list>
 </div>

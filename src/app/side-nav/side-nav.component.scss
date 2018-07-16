@@ -1,10 +1,24 @@
 .nav-container {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .nav {
     height: 100%;
-    width: 10%;
-    background-color: rgba($color: #818181, $alpha: .5)
+    width: 15%;
+    background-color: #2d343E;
+    position: fixed;
+    overflow: auto;
+    a {
+        color: white;
+    }
+    button {
+        width: max-content;
+        color: white;
+    }
+}
+
+mat-icon {
+    padding-right: 5px;
 }

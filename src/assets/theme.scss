@@ -1,0 +1,6 @@
+@import '~@angular/material/theming';
+@mixin mat-ripple-theme($theme) {
+    .mat-ripple-element {
+        background-color: rgba($color: #D9E0E8, $alpha: 1.0)
+    }
+}
