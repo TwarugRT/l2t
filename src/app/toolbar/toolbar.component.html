@@ -1,0 +1,10 @@
+<mat-toolbar color="primary">
+  <span>Learn2Train</span>
+  <span class="spacer"></span>
+  <button mat-button [matMenuTriggerFor]="appMenu">
+    <mat-icon svgIcon="menu"></mat-icon> Menu</button>
+</mat-toolbar>
+<mat-menu #appMenu>
+  <button mat-menu-item> Settings </button>
+  <button mat-menu-item> Contact </button>
+</mat-menu>
