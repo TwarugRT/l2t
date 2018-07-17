@@ -2,19 +2,20 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    position: fixed;
+    background-color: #2d343E;
+    z-index: 100;
 }
 
 .nav {
     height: 100%;
-    width: 15%;
     background-color: #2d343E;
-    position: fixed;
-    overflow: auto;
+    position: fixed; // overflow: scroll;
+    width: 15%;
     a {
         color: white;
     }
     button {
-        width: max-content;
         color: white;
     }
 }

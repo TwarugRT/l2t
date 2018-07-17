@@ -1,2 +1,9 @@
 @import '~@angular/material/prebuilt-themes/purple-green.css';
-@import '../assets/theme.scss'
+@import '../assets/theme.scss';
+.outlet {
+    margin-left: 15%;
+}
+
+app-side-nav {
+    position: fixed;
+}
